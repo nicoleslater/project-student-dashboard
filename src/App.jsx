@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import './data/data.json';
 
 const App = () => <StudentList />;
 
@@ -10,7 +11,7 @@ const StudentList  = () => {
 };
 
 const Student = () => {
-  const data = data.json;
+  const data = {};
   return <div>Student component</div>;
   
 };
