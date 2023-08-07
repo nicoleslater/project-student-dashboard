@@ -10,6 +10,7 @@ const StudentList  = () => {
 };
 
 const Student = () => {
+  const data = data.json;
   return <div>Student component</div>;
   
 };
