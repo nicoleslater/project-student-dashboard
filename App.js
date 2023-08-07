@@ -1,19 +1,19 @@
-import React from 'react';
-import './App.css';
+// import React from 'react';
+// import './App.css';
 
-const App = () => <StudentList />;
+// const App = () => <StudentList />;
 
 
-const StudentList  = () => {
-    return <Student />
+// const StudentList  = () => {
+//     return <Student />
   
-};
 
-const Student = () => {
-  return <div>Student component</div>;
+
+// const Student = () => {
+//   return <div>Student component</div>;
   
-};
+// };
 
 
 
-export default App;
+// export default App;
