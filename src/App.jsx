@@ -4,9 +4,19 @@ import './data/data.json';
 
 const App = () => <StudentList />;
 
+ const StudentList = () => {
+  const student = [
+    {
+      img:34,
+      name: "",
+      email: "", 
+      birthday:"",
+    }
+  ]
+ };
 
 const StudentList  = () => {
-    return <Student />
+    return (<Student />)
   
 };
 
