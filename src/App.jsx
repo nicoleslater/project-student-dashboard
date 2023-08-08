@@ -13,7 +13,7 @@ const StudentList  = () => {
 const Student = () => {
   const data = {};
   return <div className="student">
-    
+    <img src={"profilePhoto"} atl="profilePhoto"/>
     </div>;
   
 };
