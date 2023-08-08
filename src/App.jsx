@@ -1,30 +1,40 @@
 import React from 'react';
 import './index.css';
-import './data/data.json';
+import jsonData from "./data/data.json";
+
+// function App() {
+  
+//   return (
+//     <div>
+//       <Student data={jsonData} />
+
+//     </div>
+//   );
+// }
 
 const App = () => <StudentList />;
 
- const StudentList = () => {
-  const student = [
-    {
-      img:34,
-      name: "",
-      email: "", 
-      birthday:"",
-    }
-  ]
- };
+
 
 const StudentList  = () => {
-    return (<Student />)
+ 
+    return (<Student />);
   
 };
 
+// const Name = () => {
+//   return (
+//     <Name className="name"></Name>
+//   )
+// }
+
 const Student = () => {
+ 
+  
   const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
   return ( 
   <div className="student">
-    <p> Component </p>
+    <p> Fellow </p>
     <img src={url} atl=""/>
     <div>
       <h4>Name</h4>
