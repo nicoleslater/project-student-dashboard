@@ -12,7 +12,9 @@ const StudentList  = () => {
 
 const Student = () => {
   const data = {};
-  return <div>Student component</div>;
+  return <div className="student">
+    
+    </div>;
   
 };
 
