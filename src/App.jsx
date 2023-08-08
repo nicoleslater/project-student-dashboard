@@ -15,7 +15,7 @@ const Student = () => {
   return ( 
   <div className="student">
     <p> Component </p>
-    <img src={url} atl="profilePhoto"/>
+    <img src={url} atl=""/>
     <div>
       <h4>Name</h4>
       <h4>Email</h4>
