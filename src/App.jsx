@@ -11,9 +11,10 @@ const StudentList  = () => {
 };
 
 const Student = () => {
-  const data = {};
+  const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
   return <div className="student">
-    <img src={"profilePhoto"} atl="profilePhoto"/>
+    <p> Component </p>
+    <img src={url} atl="profilePhoto"/>
     </div>;
   
 };
