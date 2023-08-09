@@ -18,7 +18,8 @@ const App = () => <StudentList />;
 
 const StudentList  = () => {
 
-console.log(jsonData);
+console.log(jsonData[0].cohort.cohortStartDate);
+console.log(jsonData[3]);
 
  
     return (<Student />);
