@@ -38,10 +38,10 @@ const Student = () => {
   const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
   return ( 
   <div className="student">
-    <p> Fellow </p>
+    <p> Cohort: {jsonData[0].cohort.cohortCode} </p>
     <img src={url} atl=""/>
     <div>
-      <h4>Name</h4>
+      <h4>Name: </h4>
       <h4>Email</h4>
       <h4>Birthday</h4>
     </div>
