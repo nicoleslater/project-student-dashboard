@@ -19,9 +19,7 @@ const App = () => <StudentList />;
 const StudentList  = () => {
 
 console.log(jsonData);
-   [
-    {jsonData}
-  ];
+
  
     return (<Student />);
   
