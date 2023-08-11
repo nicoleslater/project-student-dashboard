@@ -41,17 +41,18 @@ const Student = () => {
     <p> Cohort: {data[0].cohort.cohortCode} </p>
     <img src={url} atl=""/>
     <div>
-      <h4>Name: </h4>
-      <h4>Email</h4>
-      <h4>Birthday</h4>
+      <h4>Name: {data[0].names.preferredName}
+      </h4>
+      <h4>Email: {data[0].username}</h4>
+      <h4>Birthday: {data[0].dob}</h4>
     </div>
     </div>
   )
-  
+    
 };
 
 class UserList extends React.Component {
-  render() {
+  render(UserList) {
     const users = data.users.map(user => (
       <li key={user.id}>
         {user.name}, {user.age}
