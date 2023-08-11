@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import jsonData from "./data/data.json";
+import data from "./data/data.json";
 
 // function App() {
   
@@ -18,8 +18,8 @@ const App = () => <StudentList />;
 
 const StudentList  = () => {
 
-console.log(jsonData[0].cohort.cohortStartDate);
-console.log(jsonData[3]);
+console.log(data[0].cohort.cohortStartDate);
+console.log(data[3]);
 
  
     return (<Student />);
@@ -38,7 +38,7 @@ const Student = () => {
   const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
   return ( 
   <div className="student">
-    <p> Cohort: {jsonData[0].cohort.cohortCode} </p>
+    <p> Cohort: {data[0].cohort.cohortCode} </p>
     <img src={url} atl=""/>
     <div>
       <h4>Name: </h4>
