@@ -11,7 +11,7 @@ import data from "./data/data.json";
 //     </div>
 //   );
 // }
-
+const User = () => <UserList />;
 const App = () => <StudentList />;
 
 
@@ -26,6 +26,7 @@ const StudentList  = () => {
       <div className="cohort">
         <p>
           All Students By: {data.filter(cohortCode)}
+          <User />
         </p>
 
       </div>
@@ -33,11 +34,11 @@ const StudentList  = () => {
   
 };
 
-// const Name = () => {
-//   return (
-//     <Name className="name"></Name>
-//   )
-// }
+const UserList = () => {
+  return (
+    <Student />
+  )
+}
 
 const Student = () => {
  
