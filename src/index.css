@@ -2,13 +2,27 @@
     margin: 0;
     padding: 0;
     font-family: Georgia;
-    background-color: linear-gradient(rgb(66, 13, 66),rgb(148, 11, 32));
+    background: linear-gradient(rgb(66, 13, 66),rgb(148, 11, 32));
 
 }
 
 .container {
+  display: grid;
   
- background: plum;
+ 
+}
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 /* --#{$prefix}};body-color: #{$body-color-dark
