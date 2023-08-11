@@ -12,9 +12,9 @@ import data from "./data/data.json";
 //   );
 // }
 
-const [students, setNewStudents] = useState();
+// const [students, setNewStudents] = useState();
 
-const User = () => <UserList />;
+// const User = () => <UserList />;
 const App = () => <StudentList />;
 
 
@@ -37,11 +37,11 @@ console.log(data[3]);
   
 };
 
-const UserList = () => {
-  return (
-    <Student />
-  )
-}
+// const UserList = () => {
+//   return (
+//     <Student />
+//   )
+// }
 
 const Student = () => {
  
