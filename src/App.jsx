@@ -11,6 +11,9 @@ import data from "./data/data.json";
 //     </div>
 //   );
 // }
+
+const [students, setNewStudents] = useState();
+
 const User = () => <UserList />;
 const App = () => <StudentList />;
 
