@@ -15,10 +15,10 @@ import data from "./data/data.json";
 // const [students, setNewStudents] = useState();
 
 // const User = () => <UserList />;
-const App = () => <StudentList />;
+// const App = () => <StudentList />;
 
 
-
+function App(){
 const Student  = () => {
 
 console.log(data[0].cohort.cohortStartDate);
@@ -34,8 +34,10 @@ console.log(data[3]);
 
       </div>
     );
+}
+}
   
-};
+// };
 
 // const UserList = () => {
 //   return (
@@ -99,7 +101,7 @@ const StudentList = () => {
     
 };
 
-{/* 
+/* 
 // class UserList extends React.Component {
 //   render(UserList) {
 //     const users = data.users.map(user => (
@@ -110,7 +112,7 @@ const StudentList = () => {
 
 //     return <ul>{users}</ul>;
 //   }
-// } */}
+// } */
 
 
 
