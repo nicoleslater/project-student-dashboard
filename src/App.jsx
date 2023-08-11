@@ -50,6 +50,18 @@ const Student = () => {
   
 };
 
+class UserList extends React.Component {
+  render() {
+    const users = data.users.map(user => (
+      <li key={user.id}>
+        {user.name}, {user.age}
+      </li>
+    ));
+
+    return <ul>{users}</ul>;
+  }
+}
+
 
 
 
