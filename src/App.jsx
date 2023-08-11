@@ -18,11 +18,18 @@ const App = () => <StudentList />;
 
 const StudentList  = () => {
 
-console.log(data[0].cohort.cohortStartDate);
-console.log(data[3]);
+// console.log(data[0].cohort.cohortStartDate);
+// console.log(data[3]);
 
  
-    return (<Student />);
+    return (
+      <div className="cohort">
+        <p>
+          All Students By: {data.filter(cohortCode)}
+        </p>
+
+      </div>
+    );
   
 };
 
@@ -51,17 +58,17 @@ const Student = () => {
     
 };
 
-class UserList extends React.Component {
-  render(UserList) {
-    const users = data.users.map(user => (
-      <li key={user.id}>
-        {user.name}, {user.age}
-      </li>
-    ));
+// class UserList extends React.Component {
+//   render(UserList) {
+//     const users = data.users.map(user => (
+//       <li key={user.id}>
+//         {user.name}, {user.age}
+//       </li>
+//     ));
 
-    return <ul>{users}</ul>;
-  }
-}
+//     return <ul>{users}</ul>;
+//   }
+// }
 
 
 
