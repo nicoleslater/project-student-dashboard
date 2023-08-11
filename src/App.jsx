@@ -18,14 +18,14 @@ const App = () => <StudentList />;
 
 const StudentList  = () => {
 
-// console.log(data[0].cohort.cohortStartDate);
-// console.log(data[3]);
+console.log(data[0].cohort.cohortStartDate);
+console.log(data[3]);
 
  
     return (
       <div className="cohort">
         <p>
-          All Students By: {data.filter(cohortCode)}
+          All Students By: {data.filter("cohortCode")};
           <User />
         </p>
 
