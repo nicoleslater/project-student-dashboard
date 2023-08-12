@@ -1,11 +1,13 @@
 import './index.css';
 import React from 'react';
 import Student from '../Student';
+import Cohort from '../Cohort';
 
 const App = () => {
   return (
     <div>
       <Student />
+      <Cohort />
     </div>
   );
 }
