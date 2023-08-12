@@ -1,20 +1,19 @@
-import { useEffect, useState } from 'react';
 import './index.css';
-import dataJson from "./data/data.json";
 
 
- const useStudentList = () => {
-  const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
-  const [allStudents, setAllStudents] = useState([]);
-  const [displayedStudents, setDisplayedStudents] = useState([]);
 
-  const getNewStudents = async () => {
-    const studentData = await fetch(url);
-    const studentJson = await dataJson();
-    setAllStudents(dataJson.className);
-    setDisplayedStudents(dataJson.cohort);
-  }
- }
+//  const useStudentList = () => {
+//   const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
+//   const [allStudents, setAllStudents] = useState([]);
+//   const [displayedStudents, setDisplayedStudents] = useState([]);
+
+//   const getNewStudents = async () => {
+//     const studentData = await fetch(url);
+//     const studentJson = await dataJson();
+//     setAllStudents(dataJson.className);
+//     setDisplayedStudents(dataJson.cohort);
+//   }
+//  }
 
 // function App() {
   
@@ -34,10 +33,10 @@ import dataJson from "./data/data.json";
 
 // function App(){
 
-useEffect(() => {
-  alert("Please Try Again!")
-  getNewStudents()
-})
+// useEffect(() => {
+//   alert("Please Try Again!")
+//   getNewStudents()
+// })
 
 // const Student  = () => {
 
