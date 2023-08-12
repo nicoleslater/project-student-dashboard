@@ -2,6 +2,8 @@ import React from 'react';
 import data from './src/data/data.json';
 
 const Student = () => {
+
+    console.log(data)
     const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
     
     return ( 
