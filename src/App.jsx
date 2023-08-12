@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Student />
-      <Cohort />
+      {/* <Cohort /> */}
     </div>
   );
 }
