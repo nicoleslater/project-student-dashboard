@@ -54,7 +54,7 @@ return (
     let title=sem+" "+year
 
 
-    return <CohortList title={title} startDate={cohortObject[cohort].startDate} studentsList={cohortObject[cohort].students} setShowStudents={setShowStudents} />;
+    return <CohortCodeList title={title} startDate={cohortObject[cohort].startDate} studentsList={cohortObject[cohort].students} setShowStudents={setShowStudents} />;
   })}
 </div>
   </div>
