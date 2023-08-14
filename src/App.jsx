@@ -2,7 +2,7 @@ import React from "react";
 import data from "./data/data.json";
 import StudentCard from "./components/StudentCard";
 import StudentList from "./components/StudentList";
-import CohortList from "./components/CohortList";
+import CohortCodeList from "./components/CohortCodeList";
 import { useState } from "react";
 import "./index.css";
 

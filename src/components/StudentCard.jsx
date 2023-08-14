@@ -31,7 +31,7 @@ const StudentCard = ({
         <p> Birthday: {birthday} </p>
       </div>
       <div>
-        <button className="toggle-button" onClick={toggleStudentDetails}>
+        <button className="toggle-button" onClick={toggleStudentInfo}>
           {showStudentInfo ? "Show Less..." : "Show More..."}
         </button>
         {showStudentInfo ? (
