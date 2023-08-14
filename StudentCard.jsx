@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import StudentDetail from "./StudentDetail";
+import StudentInfo from "./StudentInfo";
 
 const StudentCard = ({
   student,
   setSelectedStudent,
   index,
-  toggleStudentDetails,
+  toggleStudentInfo,
   handleSubmit,
 }) => {
   const firstName = student.names.preferredName;
@@ -14,10 +14,10 @@ const StudentCard = ({
   const username = student.username;
   const birthday = student.dob.toString();
   const profilePhoto = student.profilePhoto;
-  const [showStudentDetails, setShowStudentDetails] = useState(false);
+  const [showStudentInfo, setShowStudentInfo] = useState(false);
 
-  function toggleStudentDetails() {
-    setShowStudentDetails(!showStudentDetails);
+  function toggleStudentInfo() {
+    setShowStudentInfo(!showStudentInfo);
   }
 
   return (
@@ -32,10 +32,10 @@ const StudentCard = ({
       </div>
       <div>
         <button className="toggle-button" onClick={toggleStudentDetails}>
-          {showStudentDetails ? "Show Less..." : "Show More..."}
+          {showStudentInfo ? "Show Less..." : "Show More..."}
         </button>
-        {showStudentDetails ? (
-          <StudentDetail details={student} handleSubmit={handleSubmit} />
+        {showStudentInfo ? (
+          <StudentInfo details={student} handleSubmit={handleSubmit} />
         ) : null}
       </div>
     </div>

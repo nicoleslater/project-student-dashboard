@@ -1,13 +1,18 @@
 import './index.css';
 import React from 'react';
 import Student from '../StudentList';
-// import Cohort from '../Cohort';
+import CohortCodeList from '../CohortCodeList';
+import StudentCard from '../StudentCard';
+import StudentList from '../StudentList';
 
 const App = () => {
   return (
     <div>
       <Student />
-      {/* <Cohort /> */}
+     <CohortCodeList />
+     <StudentCard />
+     <StudentInfo />
+     <StudentList />
     </div>
   );
 }
