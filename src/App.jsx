@@ -8,22 +8,22 @@ import "./index.css";
 
 
 export default function App(){
-function extractCohortData(students){
+function getCohortData(students){
   let result={}
   for(let i=0;i<students.length;i++){
    let student=students[i]
    let studentCohort=student.cohort
    let studentCohortCode=studentCohort.cohortCode
 
-    if(result[studentCohortCode]==undefined){///if cohort is not initialize yet
+    if(result[studentCohortCode]==undefined){
      result[studentCohortCode]={
      startDate:studentCohort.cohortStartDate,
       students: [student]
 
      }   
-     //create the cohort and add the student to it
+    
     }else{
-     result[studentCohortCode].students.push(student)//push the student to the cohort
+     result[studentCohortCode].students.push(student)
     }
   }
 
@@ -31,7 +31,7 @@ function extractCohortData(students){
   return result
  }
 
-const cohortObject = extractCohortData(data)
+const cohortObject = getCohortData(data)
 const cohortList = Object.keys(cohortObject)
 const [showStudents, setShowStudents] = useState([]);
 const [showCohort, setShowCohort] = useState(cohortList);
@@ -44,13 +44,13 @@ return (
        <StudentList data={data} showStudents={showStudents} />
     </div>
 <div>
-<h2 className="message">Choose a Class by Start Date</h2>
+<h2 className="message">Choose Cohort</h2>
 
   {showCohort.map((cohort) => {
 
     let  splitIndex=cohort.length-4;
-    let sem=cohort.substring(0,splitIndex)//ignore last 4 chars
-    let year=cohort.substring(splitIndex)///keep only last 4 chars
+    let sem=cohort.substring(0,splitIndex)
+    let year=cohort.substring(splitIndex)
     let title=sem+" "+year
 
 
