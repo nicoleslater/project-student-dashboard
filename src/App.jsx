@@ -1,6 +1,6 @@
 import './index.css';
 import React from 'react';
-import Student from '../Student';
+import Student from '../StudentList';
 // import Cohort from '../Cohort';
 
 const App = () => {

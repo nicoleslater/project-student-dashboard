@@ -1,7 +1,7 @@
 import React from 'react';
 import data from './src/data/data.json';
 
-const Student = () => {
+const StudentList = () => {
 
     console.log(data)
     const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
@@ -57,7 +57,7 @@ const Student = () => {
 
 }
 
-export default Student;
+export default StudentList;
 
 // const useStudentList = () => {
 //     const url = "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48";
