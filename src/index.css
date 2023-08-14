@@ -29,7 +29,7 @@
     padding: 10px;
   }
   header {
-    background: mediumorchid;
+    background: limegreen;
     color: white;
     font-size: xx-large;
 
@@ -84,7 +84,7 @@
 @media (max-width: 799px) and (min-width: 400px) {
   body {
     margin: 0;
-    font-family: "Courier New", Courier, monospace;
+    font-family: sans-serif;
   }
   .container {
     height: 100vh;
@@ -109,7 +109,7 @@
   }
 
   header {
-    background: mediumorchid;
+    background: limegreen;
     color: white;
     font-size: xx-large;
 
