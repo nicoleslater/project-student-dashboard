@@ -6,6 +6,8 @@ import CohortList from "../components/CohortList";
 import { useState } from "react";
 import "./index.css";
 
+
+export default function App(){
 function extractCohortData(students){
   let result={}
   for(let i=0;i<students.length;i++){
@@ -58,7 +60,7 @@ return (
   </div>
 </div>
 );
-
+}
 
 
 
