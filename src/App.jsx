@@ -1,8 +1,8 @@
 import React from "react";
 import data from "./data/data.json";
-import StudentCard from "../components/StudentCard";
-import StudentList from "../components/StudentList";
-import CohortList from "../components/CohortList";
+import StudentCard from "./components/StudentCard";
+import StudentList from "./components/StudentList";
+import CohortList from "./components/CohortList";
 import { useState } from "react";
 import "./index.css";
 
