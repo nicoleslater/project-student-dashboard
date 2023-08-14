@@ -53,7 +53,7 @@ const StudentInfo = ({ details, handleSubmit }) => {
         <div className="notes">
           <h4>1-on-1 Notes</h4>
           <form onSubmit={handleSubmit}>
-            <label htmlFor="commenter-name">Commenter Name:</label>
+            <label htmlFor="commenter-name">Commenter:</label>
             <input type="text" />
 
             <label htmlFor="comment">Comment:</label>
