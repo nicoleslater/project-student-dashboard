@@ -1,6 +1,6 @@
 import React from "react";
 
-const StudentDetail = ({ details, handleSubmit }) => {
+const StudentInfo = ({ details, handleSubmit }) => {
   const current = details.codewars.current.total;
   const lastWeek = details.codewars.current.lastWeek;
   const goal = details.codewars.goal.total;
@@ -69,4 +69,4 @@ const StudentDetail = ({ details, handleSubmit }) => {
   );
 };
 
-export default StudentDetail;
+export default StudentInfo;
