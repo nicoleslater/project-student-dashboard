@@ -16,22 +16,26 @@
     display: flex;
     justify-content: center;
     grid-area: header;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .cohort {
     grid-column: 1;
     grid-area: cohort;
     padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .students {
     grid-column: 2;
     grid-area: students;
     padding: 10px;
+   
   }
   header {
-    background: limegreen;
+    background: palevioletred;
     color: white;
     font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     justify-content: center;
     width: 100%;
@@ -39,6 +43,7 @@
     padding: 50px;
   }
   .student-card {
+    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,11 +54,11 @@
     gap: 20px;
     align-items: flex-start;
     padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .image {
     flex-basis: fit-content;
-    /* padding-inline-start: 10px; */
     image-rendering: optimizeQuality;
   }
   .profile-img {
@@ -65,6 +70,7 @@
   }
   .message {
     padding-left: 10px;
+    
   }
   ul {
     list-style-type: none;
@@ -84,14 +90,13 @@
 @media (max-width: 799px) and (min-width: 400px) {
   body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .container {
     height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: minmax(100px, auto); */
     column-gap: 120px;
     text-align: center;
   }
@@ -133,7 +138,7 @@
 
   .image {
     flex-basis: fit-content;
-    /* padding-inline-start: 10px; */
+  
     image-rendering: optimizeQuality;
   }
   .profile-img {
