@@ -120,6 +120,7 @@
   }
   .student-card {
     display: flex;
+    background-color: aqua;
     align-items: center;
     justify-content: center;
     border: 2px solid black;
