@@ -48,9 +48,10 @@ return (
 
   {showCohort.map((cohort) => {
 
-    let  splitIndex=cohort.length-4;
-    let sem=cohort.substring(0,splitIndex)
+
     let year=cohort.substring(splitIndex)
+    let splitIndex=cohort.length-4;
+    let sem=cohort.substring(0,splitIndex)
     let title=sem+" "+year
 
 
