@@ -3,8 +3,6 @@ import StudentInfo from "./StudentInfo";
 
 const StudentCard = ({
   student,
-  setSelectedStudent,
-  index,
   toggleStudentInfo,
   handleSubmit,
 }) => {
