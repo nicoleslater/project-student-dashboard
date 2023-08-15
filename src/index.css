@@ -43,17 +43,24 @@
   }
 
   .cohort-choice {
-    background-color: black;
+    background-color: limegreen;
+    border: 5px solid aquamarine;
     width: 30%;
-    color: white;
-    border-radius: 10px;
-    
+    color: black;
+    border-radius: 5px;
+  }
 
+  .message {
+    background-color: aquamarine;
+    border: 5px solid limegreen;
+    width: 65%;
+    color: black;
+    border-radius: 5px;
   }
 
 
   header {
-    background: palevioletred;
+ 
     color: white;
     font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -141,13 +148,13 @@
     background: limegreen;
     color: white;
     font-size: xx-large;
-
     justify-content: center;
     width: 100%;
     text-align: center;
     padding: 50px;
   }
-  .student-card {
+  
+  /* .student-card {
     display: flex;
     background-color: aqua;
     align-items: center;
@@ -178,10 +185,10 @@
   ul {
     list-style-type: none;
     text-align: center;
-  }
-  form label {
+  } */
+  /* form label {
     box-sizing: border-box;
     display: block;
     margin: 5px 0;
     width: 100%;
-  }
+  } */
