@@ -3,7 +3,14 @@
     margin: 0;
     font-family: "Courier New", Courier, monospace;
   }
+
   .container {
+    background: url(/PursuitLogo.jpg);
+    background-size: 4em;
+    /* background-position-x: ; */
+    /* background-position-y: ; */
+    background-repeat: repeat;
+    /* background-color: ; */
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -93,7 +100,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .container {
-    background: url(/PursuitLogo.jpg);
     height: 100vh;
     width: 100vw;
     display: grid;
