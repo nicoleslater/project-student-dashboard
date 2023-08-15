@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function StudentList({ data, showStudents }) {
   const [selectedStudent, setSelectedStudent] = useState(-1);
   return (
-    <ul>
+    <ul className="cohort-cards">
       {showStudents.map((student, index) => {
         return (
           <StudentCard

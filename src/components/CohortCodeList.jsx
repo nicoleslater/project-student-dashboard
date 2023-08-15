@@ -7,7 +7,7 @@ const CohortCodeList = ({ title, studentsList, setShowStudents }) => {
 
   return (
     <div className="cohort" onClick={handleCohortSelection}>
-      <ul>{title}</ul>
+      <ul className="cohort-choice">{title}</ul>
     </div>
   );
 };

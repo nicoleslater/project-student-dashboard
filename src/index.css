@@ -19,6 +19,8 @@
     column-gap: 120px;
     grid-area: "cohort students" "cohort students";
   }
+
+
   .header {
     display: flex;
     justify-content: center;
@@ -38,6 +40,17 @@
     padding: 10px;
    
   }
+
+  .cohort-choice {
+    background-color: black;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    
+
+  }
+
+
   header {
     background: palevioletred;
     color: white;
@@ -50,6 +63,7 @@
     padding: 50px;
   }
   .student-card {
+    border-radius: 10px;
     background-color: aquamarine;
     display: flex;
     align-items: center;
